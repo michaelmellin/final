@@ -1,0 +1,82 @@
+
+@media screen and (min-width: 320px){
+	body{
+
+}
+header{
+	margin: 5%;
+	background: #D2691E;
+	height: 50px;
+	padding-left: 10%;
+}
+a{
+	text-decoration: none;
+	color: black;
+	padding-left: 3%;
+}
+p{
+	vertical-align: middle;
+	padding-top: 15px;
+}
+.mobileimg{
+	display: none;
+}
+}
+
+@media screen and (max-width: 320px){
+	body{
+		background: tan;
+	}
+	header{
+		margin: 5%;
+		background: #D2691E;
+		border-radius: 10px;
+		box-shadow: 2px 2px 1px black;
+	}
+	 header p{
+		padding-left: 5%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	 header a{
+		display: block;
+		padding-top: 1%;
+		text-decoration: none;
+		color: rgba(0,0,0,.6);
+	}
+	header a:hover{
+		color: rgba(0,0,0,1);
+	}
+	header span{
+		font-size: 20px;
+		padding: 3% 10% 1% 10%;
+		border-radius: 10px;
+		border-bottom: 2px solid red;
+	}
+	.mobileimg{
+		display: block;
+		/*height: 50%;*/
+		width: 80%;
+		margin: 0 auto;
+		border-radius: 10px;
+	}
+	.players{
+		border-bottom: 2px solid red;
+	}
+	.soccer, .wc, .players, .thibaut, .james,
+	.phillipp, .paul, .neymar,
+	.zlatan{
+		margin: 5%;
+		border-radius: 10px;
+		background: #D2691E;
+		padding: 5%;
+		box-shadow: 2px 2px 1px black;
+	}
+	.soccer span, .wc span, .thibaut span, .james span,
+	.phillipp span, .paul span, .neymar span,
+	.zlatan span{
+		display: block;
+		text-align: center;
+		font-size: 18px;
+	}
+}
