@@ -26,6 +26,7 @@ p{
 @media screen and (max-width: 320px){
 	body{
 		background: tan;
+		font-family: 'Cabin Condensed', sans-serif;
 	}
 	header{
 		margin: 5%;
@@ -43,6 +44,7 @@ p{
 		padding-top: 1%;
 		text-decoration: none;
 		color: rgba(0,0,0,.6);
+		transition: all 1s linear;
 	}
 	header a:hover{
 		color: rgba(0,0,0,1);
@@ -55,7 +57,6 @@ p{
 	}
 	.mobileimg{
 		display: block;
-		/*height: 50%;*/
 		width: 80%;
 		margin: 0 auto;
 		border-radius: 10px;
@@ -65,16 +66,19 @@ p{
 	}
 	.soccer, .wc, .players, .thibaut, .james,
 	.phillipp, .paul, .neymar,
-	.zlatan{
+	.zlatan, .luis, .arjen,
+	.ronaldo, .messi{
 		margin: 5%;
 		border-radius: 10px;
 		background: #D2691E;
 		padding: 5%;
 		box-shadow: 2px 2px 1px black;
 	}
-	.soccer span, .wc span, .thibaut span, .james span,
-	.phillipp span, .paul span, .neymar span,
-	.zlatan span{
+	.soccer span, .wc span, .thibaut span,
+	 .james span,.phillipp span, .paul span, .neymar span,
+	.zlatan span, .luis span,
+	.arjen span, .ronaldo span,
+	.messi span{
 		display: block;
 		text-align: center;
 		font-size: 18px;
