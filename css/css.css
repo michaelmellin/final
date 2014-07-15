@@ -98,17 +98,94 @@
     text-align: center;
   }
 
-  .thibaut, .james,
-  .phillipp, .paul,
-  .neymar, .zlatan,
-  .luis, .arjen,
-  .ronaldo, .messi {
-    width: 47%;
+  .thibaut {
+    max-width: 47%;
     display: inline-block;
     padding: 3%;
-    background: #CCCC66;
     border-radius: 10px;
     margin-top: 2%;
+    background: chocolate;
+  }
+
+  .james {
+    max-width: 47%;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background: lightblue;
+  }
+
+  .phillipp {
+    max-width: 47%;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background: peachpuff;
+  }
+
+  .paul {
+    max-width: 47%;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background: #999900;
+  }
+
+  .neymar {
+    max-width: 47%;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background: #FF3300;
+  }
+
+  .zlatan {
+    max-width: 47%;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background: #CCFF33;
+  }
+
+  .luis {
+    max-width: 47%;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background: #99CC66;
+  }
+
+  .arjen {
+    max-width: 47%;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background: #99CCCC;
+  }
+
+  .ronaldo {
+    max-width: 47%;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background: #CCCC66;
+  }
+
+  .messi {
+    max-width: 47%;
+    display: inline-block;
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    background: #66FF99;
   }
 
   .thibaut span, .james span,
@@ -133,7 +210,6 @@
     margin: 5%;
     background: #D2691E;
     border-radius: 10px;
-    box-shadow: 2px 2px 1px black;
   }
 
   header p {
@@ -158,7 +234,6 @@
     font-size: 20px;
     padding: 3% 10% 1% 10%;
     border-radius: 10px;
-    border-bottom: 2px solid red;
   }
 
   .mobileimg {
@@ -169,18 +244,23 @@
   }
 
   .players {
-    border-bottom: 2px solid red;
+    background: chocolate;
   }
 
-  .soccer, .wc, .players, .thibaut, .james,
+  .soccer, .wc {
+    margin: 5%;
+    border-radius: 10px;
+    padding: 5%;
+  }
+
+  .players, .thibaut, .james,
   .phillipp, .paul, .neymar,
   .zlatan, .luis, .arjen,
   .ronaldo, .messi {
     margin: 5%;
     border-radius: 10px;
-    background: #D2691E;
+    /*background: #D2691E;*/
     padding: 5%;
-    box-shadow: 2px 2px 1px black;
   }
 
   .soccer span, .wc span, .thibaut span,

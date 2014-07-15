@@ -1,3 +1,8 @@
+$bg_color: #D2691E;
+@mixin module { max-width: 47%;
+		display: inline-block;
+		padding: 3%; border-radius: 10px;
+		margin-top: 2%; }
 
 @media screen and (min-width: 540px){
 	body{
@@ -84,28 +89,60 @@
 		padding: 2%;
 		text-align: center;
 	}
-	.thibaut, .james,
-	.phillipp, .paul,
-	.neymar, .zlatan,
-	.luis, .arjen,
-	.ronaldo, .messi{
-		width: 47%;
-		display: inline-block;
-		padding: 3%;
+
+	.thibaut{
+		@include module;
+		background: $bg_color;
+	}
+	.james{
+		@include module;
+		background: lightblue;
+	}
+	.phillipp{
+		@include module;
+		background: peachpuff;
+	}
+	.paul{
+		@include module;
+		background: #999900;
+	}
+	.neymar{
+		@include module;
+		background: #FF3300;
+	}
+	.zlatan{
+		@include module;
+		background: #CCFF33;
+	}
+	.luis{
+		@include module;
+		background: #99CC66;
+	}
+	.arjen{
+		@include module;
+		background: #99CCCC;
+	}
+	.ronaldo{
+		@include module;
 		background: #CCCC66;
-		border-radius: 10px;
-		margin-top: 2%;
+	}
+	.messi{
+		@include module;
+		background: #66FF99;
+	}
+	%thibaut{
+		width: 50%;
+		display: block;
+		vertical-align: top;
+		padding: 3%;
+		font-size: 18px;
 	}
 	.thibaut span, .james span,
 	.phillipp span, .paul span,
 	.neymar span, .zlatan span,
 	.luis span, .arjen span,
 	.ronaldo span, .messi span{
-		width: 50%;
-		display: block;
-		vertical-align: top;
-		padding: 3%;
-		font-size: 18px;
+		@extend %thibaut;
 	}
 }
 
@@ -118,7 +155,6 @@
 		margin: 5%;
 		background: #D2691E;
 		border-radius: 10px;
-		box-shadow: 2px 2px 1px black;
 	}
 	 header p{
 		padding-left: 5%;
@@ -139,7 +175,6 @@
 		font-size: 20px;
 		padding: 3% 10% 1% 10%;
 		border-radius: 10px;
-		border-bottom: 2px solid red;
 	}
 	.mobileimg{
 		display: block;
@@ -148,17 +183,21 @@
 		border-radius: 10px;
 	}
 	.players{
-		border-bottom: 2px solid red;
+		background: $bg_color;
 	}
-	.soccer, .wc, .players, .thibaut, .james,
+	.soccer, .wc{
+		margin: 5%;
+		border-radius: 10px;
+		padding: 5%;
+	}
+	.players, .thibaut, .james,
 	.phillipp, .paul, .neymar,
 	.zlatan, .luis, .arjen,
 	.ronaldo, .messi{
 		margin: 5%;
 		border-radius: 10px;
-		background: #D2691E;
+		/*background: #D2691E;*/
 		padding: 5%;
-		box-shadow: 2px 2px 1px black;
 	}
 	.soccer span, .wc span, .thibaut span,
 	 .james span,.phillipp span, .paul span, .neymar span,
