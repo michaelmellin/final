@@ -1,0 +1,181 @@
+
+@media screen and (min-width: 540px){
+	body{
+		background: wheat;
+		font-family: 'Cabin Condensed', sans-serif;
+	}
+	header{
+		margin: 3% 5% 2% 5%;
+		background: #D2691E;
+		height: 50px;
+		padding-left: 10%;
+		border-radius: 10px;
+	}
+	header span{
+		padding: 0 3% 0 3%;
+		border-bottom: 2px solid red;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+		padding: 1% 3% 1% 3%;
+		opacity: .6;
+		transition: all 1s linear;
+	}
+	header a:hover{
+		background: #99CCCC;
+		border-radius: 10px;
+		opacity: 1;
+	}
+	p{
+		vertical-align: middle;
+		padding-top: 15px;
+	}
+	.mobileimg{
+		display: none;
+	}
+	.desktopimg{
+		width: 46%;
+		border-radius: 10px;
+		display: inline-block;
+		margin-top: 2%;
+		vertical-align: top;
+	}
+	.bigimage{
+		height: 600px;
+		background-image: url('Germany-vs-Argentina.jpg');
+		background-position: center center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		border-radius: 10px;
+		position: relative;
+	}
+	.soccer, .wc{
+		max-width: 43%;
+		display: inline-block;
+		margin-top: 2%;
+		border-radius: 10px;
+		padding: 3%;
+		vertical-align: top;
+	}
+	.soccer{
+		background: #FF6633;
+	}
+	.wc{
+		background: #9999FF;
+	}
+	.soccer span, .wc span{
+		display: block;
+		text-align: center;
+		padding-bottom: 2%;
+		font-size: 18px;
+	}
+	.textimg{
+		width: 50%;
+		position: relative;
+		border-radius: 10px;
+		float: right;
+		margin: 2%;
+	}
+	.players{
+		background: #993333;
+		border-radius: 10px;
+		padding: 2%;
+		text-align: center;
+	}
+	.thibaut, .james,
+	.phillipp, .paul,
+	.neymar, .zlatan,
+	.luis, .arjen,
+	.ronaldo, .messi{
+		width: 47%;
+		display: inline-block;
+		padding: 3%;
+		background: #CCCC66;
+		border-radius: 10px;
+		margin-top: 2%;
+	}
+	.thibaut span, .james span,
+	.phillipp span, .paul span,
+	.neymar span, .zlatan span,
+	.luis span, .arjen span,
+	.ronaldo span, .messi span{
+		width: 50%;
+		display: block;
+		vertical-align: top;
+		padding: 3%;
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 540px){
+	body{
+		background: tan;
+		font-family: 'Cabin Condensed', sans-serif;
+	}
+	header{
+		margin: 5%;
+		background: #D2691E;
+		border-radius: 10px;
+		box-shadow: 2px 2px 1px black;
+	}
+	 header p{
+		padding-left: 5%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	 header a{
+		display: block;
+		padding-top: 1%;
+		text-decoration: none;
+		color: rgba(0,0,0,.6);
+		transition: all 1s linear;
+	}
+	header a:hover{
+		color: rgba(0,0,0,1);
+	}
+	header span{
+		font-size: 20px;
+		padding: 3% 10% 1% 10%;
+		border-radius: 10px;
+		border-bottom: 2px solid red;
+	}
+	.mobileimg{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+		border-radius: 10px;
+	}
+	.players{
+		border-bottom: 2px solid red;
+	}
+	.soccer, .wc, .players, .thibaut, .james,
+	.phillipp, .paul, .neymar,
+	.zlatan, .luis, .arjen,
+	.ronaldo, .messi{
+		margin: 5%;
+		border-radius: 10px;
+		background: #D2691E;
+		padding: 5%;
+		box-shadow: 2px 2px 1px black;
+	}
+	.soccer span, .wc span, .thibaut span,
+	 .james span,.phillipp span, .paul span, .neymar span,
+	.zlatan span, .luis span,
+	.arjen span, .ronaldo span,
+	.messi span{
+		display: block;
+		text-align: center;
+		font-size: 18px;
+	}
+	.desktopimg{
+		display: none;
+	}
+	.bigimage{
+		display: none;
+	}
+	.textimg{
+		display: none;
+	}
+}
