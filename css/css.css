@@ -27,6 +27,10 @@
     border-bottom: 2px solid red;
   }
 
+  #slides {
+    margin: 0 12%;
+  }
+
   a {
     text-decoration: none;
     color: black;
@@ -251,6 +255,7 @@
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
+    margin-top: 15px;
   }
 
   .players {
