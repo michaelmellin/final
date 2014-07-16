@@ -4,7 +4,14 @@ $bg_color: #D2691E;
 		padding: 3%; border-radius: 10px;
 		margin-top: 2%;
 		 }
-
+	.slidesjs-pagination-item, 
+	.slidesjs-play, .slidesjs-stop{
+		display: none;
+	}
+.slidesjs-next:hover,
+ .slidesjs-previous:hover{
+ 	opacity: 1;
+ }
 @media screen and (min-width: 540px){
 	body{
 		background: wheat;
@@ -49,7 +56,9 @@ $bg_color: #D2691E;
 		vertical-align: top;
 		margin-left: 18%;
 	}
-	.bigimage{
+
+
+/*	.bigimage{
 		height: 600px;
 		background-image: url('Germany-vs-Argentina.jpg');
 		background-position: center center;
@@ -58,7 +67,7 @@ $bg_color: #D2691E;
 		background-attachment: fixed;
 		border-radius: 10px;
 		position: relative;
-	}
+	}*/
 	.soccer, .wc{
 		max-width: 95%;
 		display: inline-block;
@@ -163,6 +172,13 @@ $bg_color: #D2691E;
 		padding-left: 5%;
 		padding-top: 5%;
 		padding-bottom: 5%;
+	}
+	.slidesjs-next, .slidesjs-previous{
+		text-decoration: none;
+		color: black;
+		padding: 1% 3% 1% 3%;
+		opacity: .6;
+		transition: all 1s linear;
 	}
 	 header a{
 		display: block;
