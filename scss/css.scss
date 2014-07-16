@@ -1,14 +1,16 @@
 $bg_color: #D2691E;
-@mixin module { max-width: 47%;
+@mixin module { max-width: 35%;
 		display: inline-block;
 		padding: 3%; border-radius: 10px;
-		margin-top: 2%; }
+		margin-top: 2%;
+		 }
 
 @media screen and (min-width: 540px){
 	body{
 		background: wheat;
 		font-family: 'Cabin Condensed', sans-serif;
 	}
+
 	header{
 		margin: 3% 5% 2% 5%;
 		background: #D2691E;
@@ -40,11 +42,12 @@ $bg_color: #D2691E;
 		display: none;
 	}
 	.desktopimg{
-		width: 46%;
+		width: 30%;
 		border-radius: 10px;
 		display: inline-block;
 		margin-top: 2%;
 		vertical-align: top;
+		margin-left: 18%;
 	}
 	.bigimage{
 		height: 600px;
@@ -57,7 +60,7 @@ $bg_color: #D2691E;
 		position: relative;
 	}
 	.soccer, .wc{
-		max-width: 43%;
+		max-width: 95%;
 		display: inline-block;
 		margin-top: 2%;
 		border-radius: 10px;
@@ -84,51 +87,51 @@ $bg_color: #D2691E;
 		margin: 2%;
 	}
 	.players{
-		background: #993333;
+		/*background: #9999FF;*/
 		border-radius: 10px;
 		padding: 2%;
 		text-align: center;
+		font-size: 24px;
+		text-decoration: underline;
 	}
 
 	.thibaut{
 		@include module;
-		background: $bg_color;
+		
 	}
 	.james{
 		@include module;
-		background: lightblue;
+		
 	}
 	.phillipp{
 		@include module;
-		background: peachpuff;
+		
 	}
 	.paul{
 		@include module;
-		background: #999900;
+		
 	}
 	.neymar{
 		@include module;
-		background: #FF3300;
 	}
 	.zlatan{
 		@include module;
-		background: #CCFF33;
 	}
 	.luis{
 		@include module;
-		background: #99CC66;
+		
 	}
 	.arjen{
 		@include module;
-		background: #99CCCC;
+		
 	}
 	.ronaldo{
 		@include module;
-		background: #CCCC66;
+		
 	}
 	.messi{
 		@include module;
-		background: #66FF99;
+		
 	}
 	%thibaut{
 		width: 50%;

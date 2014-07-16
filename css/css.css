@@ -41,11 +41,12 @@
   }
 
   .desktopimg {
-    width: 46%;
+    width: 30%;
     border-radius: 10px;
     display: inline-block;
     margin-top: 2%;
     vertical-align: top;
+    margin-left: 18%;
   }
 
   .bigimage {
@@ -60,7 +61,7 @@
   }
 
   .soccer, .wc {
-    max-width: 43%;
+    max-width: 95%;
     display: inline-block;
     margin-top: 2%;
     border-radius: 10px;
@@ -92,100 +93,92 @@
   }
 
   .players {
-    background: #993333;
+    /*background: #9999FF;*/
     border-radius: 10px;
     padding: 2%;
     text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
   }
 
   .thibaut {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: chocolate;
   }
 
   .james {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: lightblue;
   }
 
   .phillipp {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: peachpuff;
   }
 
   .paul {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: #999900;
   }
 
   .neymar {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: #FF3300;
   }
 
   .zlatan {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: #CCFF33;
   }
 
   .luis {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: #99CC66;
   }
 
   .arjen {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: #99CCCC;
   }
 
   .ronaldo {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: #CCCC66;
   }
 
   .messi {
-    max-width: 47%;
+    max-width: 35%;
     display: inline-block;
     padding: 3%;
     border-radius: 10px;
     margin-top: 2%;
-    background: #66FF99;
   }
 
   .thibaut span, .james span,
