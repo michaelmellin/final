@@ -18,6 +18,11 @@ $bg_color: #D2691E;
 		font-family: 'Cabin Condensed', sans-serif;
 	}
 
+	
+	/*HEADER*/
+
+
+
 	header{
 		margin: 3% 5% 2% 5%;
 		background: #D2691E;
@@ -48,6 +53,12 @@ $bg_color: #D2691E;
 		vertical-align: middle;
 		padding-top: 15px;
 	}
+	
+
+	/*GENERAL IMAGE RULES*/
+
+
+
 	.mobileimg{
 		display: none;
 	}
@@ -61,16 +72,12 @@ $bg_color: #D2691E;
 	}
 
 
-/*	.bigimage{
-		height: 600px;
-		background-image: url('Germany-vs-Argentina.jpg');
-		background-position: center center;
-		background-size: 100%;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		border-radius: 10px;
-		position: relative;
-	}*/
+	
+	/*SOCCER/WC SECTION RULES*/
+
+
+
+
 	.soccer, .wc{
 		max-width: 95%;
 		display: inline-block;
@@ -98,6 +105,11 @@ $bg_color: #D2691E;
 		float: right;
 		margin: 2%;
 	}
+
+
+	/*TOP 10 PLAYERS RULES*/
+	
+
 	.players{
 		/*background: #9999FF;*/
 		border-radius: 10px;
@@ -170,6 +182,11 @@ $bg_color: #D2691E;
 		background: tan;
 		font-family: 'Cabin Condensed', sans-serif;
 	}
+	
+
+
+	/*HEADER*/
+
 	header{
 		margin: 5%;
 		background: #D2691E;
@@ -203,6 +220,12 @@ $bg_color: #D2691E;
 		border-radius: 10px;
 	}
 	
+	
+
+/*	IMAGE + SOCCER WC SECTIONS*/
+
+
+
 	.mobileimg{
 		display: block;
 		width: 80%;
@@ -218,6 +241,12 @@ $bg_color: #D2691E;
 		border-radius: 10px;
 		padding: 5%;
 	}
+	
+
+
+	/*TOP 10 PLAYERS RULES*/
+
+
 	.players, .thibaut, .james,
 	.phillipp, .paul, .neymar,
 	.zlatan, .luis, .arjen,
