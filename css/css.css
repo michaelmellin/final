@@ -205,6 +205,10 @@
     padding: 3%;
     font-size: 18px;
   }
+
+  .pure-u-1 {
+    width: 50% !important;
+  }
 }
 @media screen and (max-width: 540px) {
   body {

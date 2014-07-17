@@ -159,6 +159,10 @@ $bg_color: #D2691E;
 	.ronaldo span, .messi span{
 		@extend %thibaut;
 	}
+	.pure-u-1{
+		width: 50% !important;
+
+	}
 }
 
 @media screen and (max-width: 540px){
@@ -241,4 +245,5 @@ $bg_color: #D2691E;
 	.textimg{
 		display: none;
 	}
+	
 }
